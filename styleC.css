@@ -1,0 +1,163 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #006699;
+    background-color: #ccffcc;
+}
+  
+header {
+    text-align: center;
+    background-color: #006699;
+    color: white;
+    padding: 20px 0;
+}
+  
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006699;
+    color: white;
+    padding: 0 20px;
+    height: 50px;
+}
+  
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    margin: 0 10px;
+}
+  
+nav a {
+    color: white;
+    text-decoration: none;
+}
+  
+nav li::after {
+    content: "|";
+    color: white;
+    margin: 0 10px;
+}
+  
+nav li:last-child::after {
+    content: "";
+}
+  
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+  
+section {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+  
+section h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+  
+section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+  
+section ul {
+    font-size: 1.2em;
+    list-style: square;
+    padding-left: 20px;
+}
+  
+footer {
+    text-align: center;
+    background-color: #006699;
+    color: white;
+    padding: 20px;
+}
+  
+footer p {
+    margin: 0;
+}
+  
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #006699;
+    background-color: #ccffcc;
+}
+  
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+}
+  
+.card h1,
+.card h2 {
+    text-align: center;
+    color: #006699;
+    margin: 10px 0;
+}
+  
+.card p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+}
+form {
+    width: 75%;
+    margin: 20px auto;
+}
+  
+form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+  
+form .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+form .form-group input,
+form .form-group textarea {
+    font-size: 1.2em;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+form button {
+    font-size: 1.2em;
+    background-color: #006699;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+form button:hover {
+    background-color: #004d66;
+}
