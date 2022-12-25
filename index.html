@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <title>Pharmaceutical Lab</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pharmaceutical Lab</h1>
+    </header>
+    <hr>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="card">
+        <h2>Services</h2>
+        <ul>
+          <li>Pharmaceutical research and development</li>
+          <li>Custom synthesis and manufacturing</li>
+          <li>Quality control and testing</li>
+          <li>Regulatory affairs and compliance</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>About Us</h2>
+        <p>
+          Welcome to Pharmaceutical Lab! We are a leading provider of
+          high-quality pharmaceutical products and services. Our team of
+          experienced professionals is dedicated to meeting the needs of our
+          clients and delivering the best possible results.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Contact</h2>
+        <p>Rr. Lidhja e Prizrenit, Nr. 23<br />Prishtinë, Kosova 10000</p>
+        <p>+383(0) 49-168-952</p>
+        <p>info@pharmaceuticallab.com</p>
+      </section>
+
+      <hr />
+      <div class="card" id="login">
+        <form id="login-form">
+          <h2>Login</h2>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+
+      <div class="card" id="register">
+        <form id="register-form">
+          <h2>Register</h2>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright © Pharmaceutical Lab 2022</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
